@@ -29,7 +29,7 @@ const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 export function validateContactForm(values: ContactFormValues): ContactFormErrors {
   const errors: ContactFormErrors = {};
-  if (values.nome.trim().length < 2) errors.nome = 'Diga seu nome para eu saber com quem estou falando.';
+  if (values.nome.trim().length < 2) errors.nome = 'Diga seu nome para a gente saber com quem está falando.';
   if (!values.email.trim()) errors.email = 'Informe um e-mail para a resposta.';
   else if (!values.email.includes('@')) errors.email = 'Confira o e-mail: falta o @.';
   else if (!EMAIL_RE.test(values.email.trim())) errors.email = 'Confira o e-mail: parece incompleto.';
