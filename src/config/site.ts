@@ -11,7 +11,7 @@ export const site: SiteConfig = {
     whatsappDisplay: '(81) 9 2002-0156',
     whatsappNumber: '5581920020156',
     whatsappMessage: 'Olá! Vim pelo site da Orus e quero conversar sobre um projeto.',
-    email: 'dev.jhenrique@gmail.com',
+    email: 'contato@orusdev.com',
     instagram: 'orusdev_',
     responseTime: '1 dia útil',
   },
