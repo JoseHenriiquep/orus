@@ -52,10 +52,22 @@ export const projects: Project[] = [
     title: 'CFC Palmares',
     category: 'Landing page',
     summary:
-      'Site da autoescola de Palmares (PE). Explica a primeira habilitação em quatro passos, apresenta os outros serviços e leva o aluno direto para o WhatsApp.',
+      'Site da Auto Escola CFC Palmares. Explica a primeira habilitação em quatro passos, apresenta os outros serviços e leva o aluno direto para o WhatsApp.',
     image: '/projetos/cfc-palmares.jpg',
     imageAlt: 'Página inicial do site do CFC Palmares, com o título "Sua CNH começa aqui"',
     href: 'https://cfc-palmares-uoep.vercel.app',
+    inDevelopment: true,
+  },
+  {
+    id: 'cs-transportes',
+    title: 'CS Transportes',
+    category: 'Landing page',
+    summary:
+      'Site da CS Transportes e Distribuição, que leva água potável em caminhão-pipa em Palmares e região. O cliente monta o pedido no próprio site e envia pronto pelo WhatsApp.',
+    image: '/projetos/cs-transportes.jpg',
+    imageAlt: 'Página inicial do site da CS Transportes, com o título "Ficou sem água?"',
+    href: 'https://cs-transportes.vercel.app',
+    inDevelopment: true,
   },
 ];
 

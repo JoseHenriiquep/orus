@@ -38,6 +38,8 @@ export interface Project {
   /** Descrição da imagem para leitores de tela */
   imageAlt?: string;
   href?: string;
+  /** Projeto ainda em construção: mostra o aviso "Em desenvolvimento" no card */
+  inDevelopment?: boolean;
 }
 
 export interface Founder {
